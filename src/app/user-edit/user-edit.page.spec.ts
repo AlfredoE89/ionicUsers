@@ -1,19 +1,19 @@
 import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 import { IonicModule } from "@ionic/angular";
 
-import { LogoutPage } from "./logout.page";
+import { UserEditPage } from "./user-edit.page";
 
-describe("LogoutPage", () => {
-  let component: LogoutPage;
-  let fixture: ComponentFixture<LogoutPage>;
+describe("UserEditPage", () => {
+  let component: UserEditPage;
+  let fixture: ComponentFixture<UserEditPage>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [LogoutPage],
+      declarations: [UserEditPage],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(LogoutPage);
+    fixture = TestBed.createComponent(UserEditPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));
